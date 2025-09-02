@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/scss/all.css" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <h1 class="index-title">我不是首頁</h1>
+
+    <div class="card" style="width: 18rem">
+      <img src="../assets/images/dog.jpg" class="card-img-top" alt="cat" />
+      <div class="card-body shadow">
+        <h5 class="card-title">卡片元件</h5>
+        <p class="card-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod illum
+          culpa quos expedita dolore, dolores sint quia voluptatibus eveniet
+          architecto inventore sapiente, possimus, accusantium vel enim porro
+          nesciunt officia at.
+        </p>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="mb-7 mb-lg-7">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-link">Link</button>
+      <p class="fs-1 fs-lg-l">一段文字</p>
+      <div class="container">
+        <div class="row gy-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <img src="../assets/images/dog.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/images/dog.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/images/dog.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/images/dog.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/images/dog.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/images/dog.jpg" class="w-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
