@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
-    <script type="module" crossorigin src="/WorkWay/assets/main-B7cfp3Ay.js"></script>
-    <link rel="stylesheet" crossorigin href="/WorkWay/assets/main-Ini71ycC.css">
+    <script type="module" crossorigin src="/WorkWay/assets/main-BelfRdn8.js"></script>
+    <link rel="stylesheet" crossorigin href="/WorkWay/assets/main-xtnqZtb2.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom py-3">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <img src="/WorkWay/assets/logo-CRTeTChE.svg" alt="logo" />
     </a>
     <button
@@ -49,30 +49,53 @@
 </nav>
     <h1>我是about</h1>
     <footer class="bg-gray">
-  <div class="container border-top">
-    <div class="row align-items-center">
-      <div class="col-6">
+  <div class="container border-top py-3">
+    <div class="row">
+      <!-- 桌機版維持原本水平排列 -->
+      <div class="col-6 d-none d-md-flex align-items-center">
         <ul class="nav footer-padding">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">服務方案</a>
+            <a class="nav-link active" href="#">服務方案</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">關於職旅</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">聯絡我們</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">隱私權政策</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">用戶條款</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="#">關於職旅</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">聯絡我們</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">隱私權政策</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">用戶條款</a></li>
         </ul>
       </div>
 
-      <div class="col-6 text-end">
-        <span class="text-secondary footer-fsz col-6"
+      <!-- 手機版 nav，每行最多三個 -->
+      <!-- 手機版 nav -->
+      <div class="col-12 d-flex d-md-none flex-wrap mb-2 footer-padding">
+        <!-- 第一行三個 -->
+        <div class="col-4 mb-2 d-flex justify-content-center">
+          <a class="nav-link p-0" href="#">服務方案</a>
+        </div>
+        <div class="col-4 mb-2 d-flex justify-content-center">
+          <a class="nav-link p-0" href="#">關於職旅</a>
+        </div>
+        <div class="col-4 mb-2 d-flex justify-content-center">
+          <a class="nav-link p-0" href="#">聯絡我們</a>
+        </div>
+
+        <!-- 第二行兩個 -->
+        <div class="col-6 mb-2 d-flex justify-content-center">
+          <a class="nav-link p-0" href="#">隱私權政策</a>
+        </div>
+        <div class="col-6 mb-2 d-flex justify-content-center">
+          <a class="nav-link p-0" href="#">用戶條款</a>
+        </div>
+      </div>
+
+      <!-- 右側版權，手機版單獨一行 -->
+      <!-- 版權 -->
+      <div class="col-6 d-none d-md-flex text-end align-items-center">
+        <span class="text-secondary"
+          >Copyright © 2025 職旅 workway. All rights reserved.</span
+        >
+      </div>
+      <div class="col-12 d-flex d-md-none justify-content-center">
+        <span class="text-secondary"
           >Copyright © 2025 職旅 workway. All rights reserved.</span
         >
       </div>
